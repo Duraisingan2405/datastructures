@@ -1,0 +1,75 @@
+ASymptotoic analysis:
+  What the runtime of the algorithum grows when the input size increases that is known as asymptotic analysis.
+  Asymptotic analyisis can be expressed in big o notation
+
+  we are intrested only in the general trend not about the precision
+
+  o(N) linear time complexity.
+
+  O(n) notation is used to do asymptotic analysis
+
+  we are only intrested in trend.
+
+  means how the algorithum will react when the n tends to infinitivie or n tends to very large
+
+
+what is Big o
+
+  O(N) -> operations is bounded by a multiple of N
+
+ Big O Notation is the mathematical notation that describes the limiting behaviour of a function when the function tends to inifinitive or larger value.
+
+ we will always consider the upper bound or wrost case
+
+
+ Big o notation is used to express the asymptotic analysis
+
+
+Common complexities
+
+  O(1)   -> constant
+
+  O(log n)  -> Binary search algorithum  cuts every half of the input at the each step
+
+  O(n)    -> tarverse elements of array to add them
+
+  O(nlog n)  -> merge sort
+
+  O(n^2)   -> [1,2,3] =>permutations
+
+  O(2^n)  -> Fibonacci
+
+  O(n!)
+
+ Space Complexity
+
+   How much auxillary mempry needed to run the alorithum
+
+   we actually ignore the iniput size of the algorithum
+
+   we can impore the time complexity by introducing some addtional space ex:Array
+
+
+ Logarithms
+
+
+   in coding log always take the base 2.
+
+
+  Relation between N and logN
+
+
+ N    | logn
+ 1024 | 10   2 pow 10 = 1024
+ 1048576| 20  2 pow 20
+
+
+for space complexity of the recursive functions is o(logn)
+
+
+in Sorted square Array normal impl has the time complexity of O(nlog n) for sorting and iterating over to squaring
+
+we are optimised that to O(n) using left and right pointers the important thing is the array must be given sorted i.e the problem
+constrain
+
+
