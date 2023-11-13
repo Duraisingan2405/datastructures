@@ -66,10 +66,23 @@ Common complexities
 
 for space complexity of the recursive functions is o(logn)
 
-
+Problem 1:
 in Sorted square Array normal impl has the time complexity of O(nlog n) for sorting and iterating over to squaring
 
 we are optimised that to O(n) using left and right pointers the important thing is the array must be given sorted i.e the problem
 constrain
+
+Problem 2:
+
+ In second problem we have to find the array which is monotonic or not
+  what is monotonic
+           when an array is monotonic increasing if the element of an array is not in decresing order.
+           when an array is monotonic decreasing if the element of an array is not in increasing order.
+           when all the elements are equal it is monotonic.
+           if only one element in the array it is monotonic.
+           An empty array is also said to be monotonic.
+
+           our motive is to return false if it does not satisfies any one of the above statement.
+           we want to consider the not considering factor and return false only.
 
 

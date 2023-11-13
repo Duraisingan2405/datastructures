@@ -1,0 +1,11 @@
+Rotating an array towards the right
+normal impl
+  if the rotaion is 5 and the length is also 5 means the array came to the original position again so we need to find the modulo rotaio only which is often less than the
+  length of the array
+
+  [1,2,3,4,5]
+  k = 2
+  [5,1,2,3,4]
+  [4,5,1,2,3]  //copy 4 5 because the k is 2
+  shift the remaining elements [1,2,1,2,3,4]
+  adding from temp array [4,5,1,2,3,4]
