@@ -15,3 +15,46 @@ Two Sum - You are given an array of Integers and another integer targetValue.
     the time complexity which is of the order of O(n^2)
 
   second solution:
+    we provided the solution above with the time complexity of O(n^2)
+    so optimised in the second solution with the help of hashtable to look up the value
+    this solution is optimised to timeComplexity of O(n) and the space complexity of O(n) for the worst case it will take the space
+    complexity of 0(n) say example if the pair may not found
+
+
+Coding Exercise - Isomorphic Strings
+Question:2
+
+Isomorphic Strings - Given two strings s and t, determine if they are isomorphic.
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+All occurrences of a character must be replaced with another character while preserving the order of characters.
+ No two characters may map to the same character, but a character may map to itself.
+  s and t consist of any valid ascii character.
+
+  what is iso morphic
+
+  s1 = "abacus"
+  s2 = "rirfgs"
+  a -> r
+  b -> i
+  a -> r //a again map to the r so valid
+  c -> f
+  u -> g
+  s -> s // self map allowded
+
+  if the length is different it is not valid
+
+  s1 = "aba"
+  s2 = "pqr"
+  a -> p
+  b -> q
+  a -> r // a again mapped with r it is not iso morphic
+
+  here when come to the normal implentation without using any data structure it seems to be more complex
+
+  providing optimised solution with hashtables can take the timecomplexity to O(n)
+  and space complexity is O(1) it is mentioned that s1 and s2 is a ascii value so fixed its size will be upto 128 only
+
+
+
+
+
