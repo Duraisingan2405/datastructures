@@ -1,0 +1,22 @@
+Coding Exercise - Two Sum
+Question:
+
+Two Sum - You are given an array of Integers and another integer targetValue.
+ Write a function that will take these inputs and return the indices of the 2
+  integers in the array that add up targetValue.
+
+
+  our motive is to find the indexes of two elements in the test array
+  which forms the given target number as the result.
+  if it not found means return an empty array.
+
+  first solution:
+    this one is the normal implementation without taken into considering
+    the time complexity which is of the order of O(n^2)
+
+  second solution:
+    we provided the solution above with the time complexity of O(n^2)
+    so optimised in the second solution with the help of hashtable to look up the value
+    this solution is optimised to timeComplexity of O(n) and the space complexity of O(n) for the worst case it will take the space
+    complexity of 0(n) say example if the pair may not found
+
