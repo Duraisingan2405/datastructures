@@ -3,7 +3,7 @@ package day4;
 import java.util.HashMap;
 
 public class FibonacciSequenceOptimised {
-    private static HashMap<Integer,Integer> numberLookup = new HashMap(){{  //initialised globally because if it is initialized iniside the method it has to reinitialize for every recursive call
+    private static HashMap<Integer,Integer> numberLookup = new HashMap<>(){{  //initialised globally because if it is initialized iniside the method it has to reinitialize for every recursive call
        put(0,0);
        put(1,1);
     }};
