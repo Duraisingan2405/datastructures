@@ -1,0 +1,13 @@
+we implemented two fibonacci solutions one is not memoished one and the other one is memoised
+
+first implementation
+    first implementation is that it is having the time complexity of O(2^n)
+    and having the space complexity of o(n) beacuse it have to store the each call in the call stack
+
+second implementation(memo)
+    second implementation is the order of time complexity having O(n)
+    it is having the space complexity of O(n) ex: for fibbi(5) we have to store f(0) up to f(5) so it is of the order of n
+
+    even though the calls are memorised it will throw stack overflow for higher calls.
+
+    iterative way is suitable for larger numbers which does not cause any stack overflow error
