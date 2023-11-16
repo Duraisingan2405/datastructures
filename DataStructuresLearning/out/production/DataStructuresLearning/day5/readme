@@ -1,0 +1,3 @@
+Question 1: Permutations - Given an array of distinct integers, return all the possible permutations.
+You can return the answer in any order.
+  in our approach we will use recurion to solve the permutations

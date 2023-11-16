@@ -1,0 +1,9 @@
+Question 1: Permutations - Given an array of distinct integers, return all the possible permutations.
+You can return the answer in any order.
+  in our approach we will use recurion to solve the permutations
+
+  the solved problem having the time complexity of O(n! * n) -> n! for recursion and n is for loop we are using for loop n! times i.e 6 times for length of 3
+
+  the space complexity is same as the time complextity we are creating the array of (n! * n) times
+
+  
